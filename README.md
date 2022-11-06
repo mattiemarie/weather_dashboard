@@ -1,47 +1,45 @@
 # weather_dashboard
-## UCF Coding Bootcamp Challenge 06
-
-
-# Work Day Scheduler: Third-Party APIs
-
-UCF Coding Bootcamp Challenge 05
+UCF Coding Bootcamp Challenge 06
 
 ## User Story
 
-AS AN employee with a busy schedule
+AS A traveler
 
-I WANT to add important events to a daily planner
+I WANT to see the weathr outlook for multiple cities
 
-SO THAT I can manage my time effectively
+SO THAT I can plan a trip accordingly
 
 ## Acceptance Criteria
 
-GIVEN I am using a daily planner to create a schedule
+GIVEN a weather dashboard with form inputs
 
-WHEN I open the planner
+WHEN I search for a city
 
-THEN the current day is displayed at the top of the calendar
+THEN I am presented with current and future conditions for
 
-WHEN I scroll down
+that city and that city is added to the search history
 
-THEN I am presented with time blocks for standard business hours
+WHEN I view current weather conditions for that city
 
-WHEN I view the time blocks for that day
+THEN I am presented with the city name, the date, an icon 
 
-THEN each time block is color-coded to indicate whether it is in
-the past, present, or future
+representation of weather conditions, the temperature, the
 
-WHEN I click into a time block
+humidity, and the the wind speed
 
-THEN I can enter an event
+WHEN I view future weather conditions for that city
 
-WHEN I click the save button for that time block
+THEN I am presented with a 5-day forecast that displays the
 
-THEN the text for that event is saved in local storage
+date, an icon representation of weather conditions, the
 
-WHEN I refresh the page
+temperature, the wind speed, and the humidity
 
-THEN the saved events persist
+WHEN I click on a city in the search history
+
+THEN I am again presented with current and future conditions
+
+for that city
 
 ## Mock Up
 
@@ -62,4 +60,4 @@ The following is the url to the diplyed web application: https://mattiemarie.git
 
 ## Description
 
-The goal of Challenge 05 was to create an editable Work Day Scheduler that allows the user to add tasks to be completed throughout the workday (9am- 5pm). The tasks will be saved to the workday scheduler until the user manually changes/deletes them.
+The goal of Challenge 06 is to create a weather dashboard that a traveler can use to input a city they wish to see weather conditions for. The dashboard will show the chosen city's Temperature, Wind Speed, and Humidity for the day searched and for the upcoming 5 days.
