@@ -4,66 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Weather Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
     <!--Title Container: Weather Dashboard-->
-    <div id="title-container"class="container-fluid">
+    <div id="titlecontainer"class="container-fluid">
         <div class="row col-12" id="title">
-          Weather Dashboard
+        Weather Dashboard
         </div>
     </div>
 
     <!--City Search Box Container-->
-    <div id="title-container"class="container-fluid">
+    <div class="searchboxcontainer"class="container">
     <!--Search Box-->
     <div class="row">
-        <div class="col-9" class="input-group mb-3">
-            <input id="search-box" type="text" class="form-control" aria-label="Text input with dropdown button">
-         </div>
+            <div class="col-9" class="input-group mb-3" id="searchbox">
+                <input id="search-box" type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
     <!--Search History Dropdown-->
-        <div class="col-3" class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" id="dropdownbtn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-            </button>
-            <ul class="dropdown-menu">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
+            <div class="col-3" class="dropdown" id="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" id="dropdownbtn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                </ul>
+            </div>
         </div>
     </div>
-    </div>
 
-    <!--Weather Forcast Container-->
-    <div class="container-fluid text-center">
+    <!--Today's Weather Forcast Container-->
+    <div class="container text-center">
         <div id="weather-forcast" class="row">
             <!--Today's Forcast-->
-            <div id="today-forcast" class="col-2">
-                Today's Forcast
+            <div id="todaysforcast" class="col-12">
+                <div id="todays-forcast-text">Today's Forcast</div>
             </div>
+        </div>
+    </div>
+
+    <!--5 Day Forcast Container-->
+            
+    <div class="container text-center">
+        <div class="row" id="five-day-forcast" class="five-day-forcast">
+
+            <!--Title-->
+            <div class="col-12" id="five-day-forcast-title">5-Day Forcast</div>
+
             <!--Day 1 Forcast-->
-            <div id="day-1" class="col-2">
-                Day-1
+            <div class="dayone" style="width: 14rem;">
+                <div class="card-body" id="dayone">
+                  <h5 class="card-title">Day 1</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
             </div>
-            <!--Day 2 Forcast-->
-             <div id="day-2" class="col-2">
-                Day-2
-             </div>
-             <!--Day 3 Forcast-->
-            <div id="day-3" class="col-2">
-                Day-3
+
+               <!--Day 2 Forcast-->
+            <div class="daytwo" style="width: 14rem;">
+                <div class="card-body"id=daytwo>
+                  <h5 class="card-title">Day 2</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
             </div>
-            <!--Day 4 Forcast-->
-            <div id="day-4" class="col-2">
-                Day-4
+
+               <!--Day 3 Forcast-->
+            <div class="daythree" style="width: 14rem;">
+                <div class="card-body" id="daythree">
+                  <h5 class="card-title">Day 3</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
             </div>
-            <!--Day 5 Forcast-->
-            <div id="day-5" class="col-2">
-                Day-5
+
+               <!--Day 4 Forcast-->
+            <div class="dayfour" style="width: 14rem;">
+                <div class="card-body" id="dayfour">
+                  <h5 class="card-title">Day 4</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
             </div>
-          
+
+               <!--Day 5 Forcast-->
+            <div class="dayfive" style="width: 14rem;">
+                <div class="card-body" id="dayfive">
+                  <h5 class="card-title">Day 5</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+           
+
         </div>
     </div>
     
