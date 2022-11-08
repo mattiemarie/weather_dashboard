@@ -1,4 +1,4 @@
-# weather_dashboard
+# Weather Dashboard
 UCF Coding Bootcamp Challenge 06
 
 ## User Story
@@ -49,13 +49,13 @@ The following image demonstrates the application appearance:
 
 
 
-![image](https://user-images.githubusercontent.com/111001779/199599555-28b839ba-f222-42bc-b6d8-716ccd58ab5f.png)
 
 
 
 
 
-The following is the url to the diplyed web application: https://mattiemarie.github.io/work_day_scheduler/
+
+The following is the url to the diplyed web application:
 
 
 ## Description
