@@ -18,12 +18,14 @@
     background-color: var(--blue);
     height: 100px;
     margin-bottom: 30px;
+    padding-top: 1px;
 }
 
 /* Title Text */
 #title {
-    color: var(--yellow);
+    color: var(--cream);
     font-size: 50px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -45,54 +47,69 @@
 /* Today's Forcast Elements */
 
 #todaysforcast {
-    background-color: var(--blue);
+    background-color: var(--teal);
     height: 250px;
     width: 100rem;
 }
-#todays-forcast-text {
+.todays-date{
+    font-size:30px;
     color: var(--cream);
     margin-top: 20px;
-    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
 }
 
-/* 5-Day Forcast Elements */
-.five-day-forcast {
-    align-items: center;
-    justify-content: center;
+.todays-temp {
+    margin-left: 20px;
+    margin-bottom: 25px;
 }
 
+.todays-wind {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.todays-humid {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+/* 5-Day Forcast Title */
 #five-day-forcast-title {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
 }
 
-#dayone {
-    background-color: var(--pink);
-    height: 300px;
-}
-
-#daytwo {
-    background-color: var(--green);
-    height: 300px;
-}
-
-#daythree {
-    background-color: var(--yellow);
-    height: 300px;
-}
-
-#dayfour {
-    background-color: var(--teal);
-    height: 300px;
-}
-
-#dayfive {
-    background-color: var(--red);
-    height: 300px;
-}
-
 /* 5-Day Forcast Card Formatting */
-
-.card-title {
+.card-body{
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: var(--blue);
 }
+
+.card-date {
+    padding-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: var(--cream)
+}
+
+.card-temp {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: var(--cream)
+}
+
+.card-wind {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: var(--cream)
+}
+
+.card-humid {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: var(--cream)
+}
+
