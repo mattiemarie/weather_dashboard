@@ -38,6 +38,11 @@
     margin-bottom: 30px;
 }
 
+#searchbutton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 /* Weather Forecast Container */
 #weather-forecast {
     justify-content: center;
