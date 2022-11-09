@@ -31,25 +31,24 @@
 }
 
 /* Search Box Container */
-.searchboxcontainer {
+#searchbox {
     justify-content: center;
     align-items: center;
-    margin-left: 15rem;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
-/* Weather Forcast Container */
-#weather-forcast {
+/* Weather Forecast Container */
+#weather-forecast {
     justify-content: center;
     align-items: top;
 }
 
-/* Today's Forcast Elements */
-
-#todaysforcast {
+/* Today's Forecast Elements */
+#todaysforecast {
     background-color: var(--teal);
     height: 250px;
-    width: 100rem;
+    padding: 1px;
 }
 .todays-date{
     font-size:25px;
@@ -80,8 +79,18 @@
     margin-bottom: 25px;
 }
 
-/* 5-Day Forcast Title */
-#five-day-forcast-title {
+/* 5-Day Forecast Container */
+.five-day-forecast-container {
+    display:flex;
+    align-items: right;
+    justify-content: right;
+}
+
+/* 5-Day Forecast Title */
+#five-day-forecast-title {
+    display:flex;
+    justify-content: center;
+    margin-right: 40rem;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
@@ -89,6 +98,7 @@
 
 /* 5-Day Forcast Card Formatting */
 .card-body{
+    margin-right: 20px;
     height: 300px;
     margin-bottom: 20px;
     background-color: var(--blue);

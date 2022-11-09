@@ -17,49 +17,37 @@
     </div>
 
     <!--City Search Box Container-->
-    <div class="searchboxcontainer"class="container">
-    <!--Search Box-->
-    <div class="row">
-            <div class="col-9" class="input-group mb-3" id="searchbox">
+    <div class="weathercontainer"class="container-fluid">
+        <div class="row">
+        
+            <!--Search Box-->
+            <div class="col-3" class="input-group mb-3" id="searchbox">
                 <input id="search-box" type="text" class="form-control" aria-label="Text input with dropdown button">
             </div>
-    <!--Search History Dropdown-->
-            <div class="col-3" class="dropdown" id="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" id="dropdownbtn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-                </button>
-                <ul class="dropdown-menu">
-                <li><button class="city" type="button">Action</button></li>
-                <li><button class="city" type="button">Another action</button></li>
-                <li><button class="city" type="button">Something else here</button></li>
-                </ul>
+          
+                
+            <!--Today's Forecast-->
+            <div class="col-9">
+                <div class="todaysforecast" id="todaysforecast">
+                    <div class="todays-date" id="todays-date">Today's Date:</div>
+                    <div class="todays-temp" id="todays-temp">Temperature:</div>
+                    <div class="todays-wind" id="todays-wind">Wind:</div>
+                    <div class="todays-humid" id="todays-humid">Humidity:</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!--Today's Weather Forcast Container-->
-    <div class="container">
-        <div id="weather-forcast" class="row">
-            <!--Today's Forcast-->
-            <div id="todaysforcast" class="col-12">
-                <div class="todays-date" id="todays-date">Today's Date:</div>
-                <div class="todays-temp" id="todays-temp">Temperature:</div>
-                <div class="todays-wind" id="todays-wind">Wind:</div>
-                <div class="todays-humid" id="todays-humid">Humidity:</div>
-            </div>
-        </div>
-    </div>
+  
 
-    <!--5 Day Forcast Container-->
-            
-    <div class="container">
-        <div class="row" id="five-day-forcast" class="five-day-forcast">
+        <!--Title-->
+        <div id="five-day-forecast-title">5-Day Forecast</div>
 
-            <!--Title-->
-            <div class="col-12" id="five-day-forcast-title">5-Day Forcast</div>
 
+        <!--5 Day Forcast Container-->
+        <div class="five-day-forecast-container" id="five-day-forecast-container">
             <!--Day 1 Forcast-->
-            <div class="dayone" style="width: 16.5rem;">
+            <div class="dayone" style="width: 15.5rem;">
                 <div class="card-body" id="dayone">
                     <div class="card-date" id="dayone-date">Date:</div>
                     <div class="card-temp" id="dayone-temp">Temperature:</div>
@@ -67,9 +55,9 @@
                     <div class="card-humid" id="dayone-humid">Humidity:</div>
                 </div>
             </div>
-
-               <!--Day 2 Forcast-->
-            <div class="daytwo" style="width: 16.5rem;">
+                
+            <!--Day 2 Forcast-->
+            <div class="daytwo" style="width: 15.5rem;">
                 <div class="card-body"id=daytwo>
                     <div class="card-date" id="dayone-date">Date:</div>
                     <div class="card-temp" id="dayone-temp">Temperature:</div>
@@ -78,8 +66,8 @@
                 </div>
             </div>
 
-               <!--Day 3 Forcast-->
-            <div class="daythree" style="width: 16.5rem;">
+            <!--Day 3 Forcast-->
+            <div class="daythree" style="width: 15.5rem;">
                 <div class="card-body" id="daythree">
                     <div class="card-date" id="dayone-date">Date:</div>
                     <div class="card-temp" id="dayone-temp">Temperature:</div>
@@ -88,8 +76,8 @@
                 </div>
             </div>
 
-               <!--Day 4 Forcast-->
-            <div class="dayfour" style="width: 16.5rem;">
+            <!--Day 4 Forcast-->
+            <div class="dayfour" style="width: 15.5rem;">
                 <div class="card-body" id="dayfour">
                     <div class="card-date" id="dayone-date">Date:</div>
                     <div class="card-temp" id="dayone-temp">Temperature:</div>
@@ -98,8 +86,8 @@
                 </div>
             </div>
 
-               <!--Day 5 Forcast-->
-            <div class="dayfive" style="width: 16.5rem;">
+            <!--Day 5 Forcast-->
+            <div class="dayfive" style="width: 15.5rem;">
                 <div class="card-body" id="dayfive">
                     <div class="card-date" id="dayone-date">Date:</div>
                     <div class="card-temp" id="dayone-temp">Temperature:</div>
@@ -107,10 +95,7 @@
                     <div class="card-humid" id="dayone-humid">Humidity:</div>
                 </div>
             </div>
-           
-
         </div>
-    </div>
-    
+           
 </body>
 </html>
