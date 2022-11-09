@@ -52,7 +52,7 @@
     width: 100rem;
 }
 .todays-date{
-    font-size:30px;
+    font-size:25px;
     color: var(--cream);
     margin-top: 20px;
     margin-left: 20px;
@@ -60,16 +60,22 @@
 }
 
 .todays-temp {
+    color: var(--cream);
+    font-size: 20px;
     margin-left: 20px;
     margin-bottom: 25px;
 }
 
 .todays-wind {
+    color: var(--cream);
+    font-size: 20px;
     margin-left: 20px;
     margin-bottom: 25px;
 }
 
 .todays-humid {
+    color: var(--cream);
+    font-size: 20px;
     margin-left: 20px;
     margin-bottom: 25px;
 }
@@ -90,6 +96,7 @@
 
 .card-date {
     padding-top: 25px;
+    font-size: 20px;
     margin-left: 25px;
     margin-bottom: 25px;
     color: var(--cream)
@@ -97,18 +104,21 @@
 
 .card-temp {
     margin-left: 25px;
+    font-size: 18px;
     margin-bottom: 25px;
     color: var(--cream)
 }
 
 .card-wind {
     margin-left: 25px;
+    font-size: 18px;
     margin-bottom: 25px;
     color: var(--cream)
 }
 
 .card-humid {
     margin-left: 25px;
+    font-size: 18px;
     margin-bottom: 25px;
     color: var(--cream)
 }
