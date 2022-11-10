@@ -52,6 +52,12 @@ The following image demonstrates the application appearance:
 
 
 
+![image](https://user-images.githubusercontent.com/111001779/201225144-16b4f517-3925-4453-86e9-e9fdc9b78130.png)
+
+
+
+
+
 
 
 
