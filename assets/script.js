@@ -44,49 +44,55 @@ function getForecast (lat,lon) {
     todaysWind.textContent = `Wind: ${data.current.wind_speed} MPH`
     todaysHumid.textContent = `Humidity: ${data.current.humidity}`
 
+    //Variables for Day 1 Forecast
     var dayoneTemp = document.getElementById("dayone-temp")
     var dayoneWind = document.getElementById("dayone-wind")
     var dayoneHumid = document.getElementById("dayone-humid")
     
-    dayoneTemp.textContent = `Temperature: ${} F`
-    dayoneWind.textContent = `Wind: ${} MPH`
-    dayoneHumid.textContent = `Humidity: ${}`
+    //Call for Day 1 Forecast
+    dayoneTemp.textContent = `Temperature: ${data.daily[1].temp.day} F`
+    dayoneWind.textContent = `Wind: ${data.daily[1].wind_speed} MPH`
+    dayoneHumid.textContent = `Humidity: ${data.daily[1].humidity}`
 
-
+    //Variables for Day 2 Forecast
     var daytwoTemp = document.getElementById("daytwo-temp")
     var daytwoWind = document.getElementById("daytwo-wind")
     var daytwoHumid = document.getElementById("daytwo-humid")
 
-    daytwoTemp.textContent = `Temperature: ${} F`
-    daytwoWind.textContent = `Wind: ${} MPH`
-    daytwoHumid.textContent = `Humidity: ${}`
+    //Call for Day 2 Forecast
+    daytwoTemp.textContent = `Temperature: ${data.daily[2].temp.day} F`
+    daytwoWind.textContent = `Wind: ${data.daily[2].wind_speed} MPH`
+    daytwoHumid.textContent = `Humidity: ${data.daily[2].humidity}`
 
-
+    //Variables for Day 3 Forecast
     var daythreeTemp = document.getElementById("daythree-temp")
     var daythreeWind = document.getElementById("daythree-wind")
     var daythreeHumid = document.getElementById("dayone-humid")
 
-    daythreeTemp.textContent = `Temperature: ${} F`
-    daythreeWind.textContent = `Wind: ${} MPH`
-    daythreeHumid.textContent = `Humidity: ${}`
+    //Call for Day 3 Forecast
+    daythreeTemp.textContent = `Temperature: ${data.daily[3].temp.day} F`
+    daythreeWind.textContent = `Wind: ${data.daily[3].wind_speed} MPH`
+    daythreeHumid.textContent = `Humidity: ${data.daily[3].humidity}`
 
-
+    //Variables for Day 4 Forecast
     var dayfourTemp = document.getElementById("dayfour-temp")
     var dayfourWind = document.getElementById("dayfour-wind")
     var dayfourHumid = document.getElementById("dayfour-humid")
 
-    dayfourTemp.textContent = `Temperature: ${} F`
-    dayfourWind.textContent = `Wind: ${} MPH`
-    dayfourHumid.textContent = `Humidity: ${}`
+    //Call for Day 4 Forecast
+    dayfourTemp.textContent = `Temperature: ${data.daily[4].temp.day} F`
+    dayfourWind.textContent = `Wind: ${data.daily[4].wind_speed} MPH`
+    dayfourHumid.textContent = `Humidity: ${data.daily[4].humidity}`
 
-
+    //Variables for Day 5 Forecast
     var dayfiveTemp = document.getElementById("dayfive-temp")
     var dayfiveWind = document.getElementById("dayfive-wind")
     var dayfiveHumid = document.getElementById("dayfive-humid")
 
-    dayfiveTemp.textContent = `Temperature: ${} F`
-    dayfiveWind.textContent = `Wind: ${} MPH`
-    dayfiveHumid.textContent = `Humidity: ${}`
+    //Call for Day 5 Forecast
+    dayfiveTemp.textContent = `Temperature: ${data.daily[5].temp.day} F`
+    dayfiveWind.textContent = `Wind: ${data.daily[5].wind_speed} MPH`
+    dayfiveHumid.textContent = `Humidity: ${data.daily[5].humidity}`
 
 
 
