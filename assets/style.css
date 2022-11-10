@@ -50,38 +50,46 @@
 }
 
 /* Today's Forecast Elements */
+#cityName {
+    color: var(--cream);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px
+}
+
 #todaysforecast {
     background-color: var(--teal);
     height: 250px;
     padding: 1px;
 }
 .todays-date{
-    font-size:25px;
+    font-size:18px;
     color: var(--cream);
-    margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .todays-temp {
     color: var(--cream);
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .todays-wind {
     color: var(--cream);
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .todays-humid {
     color: var(--cream);
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 /* 5-Day Forecast Container */

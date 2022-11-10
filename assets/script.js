@@ -7,6 +7,7 @@ var searchbox = document.getElementById("search-box")
 function getCity () {
     var city = searchbox.value.trim()
     getLatLon(city)
+    $("#cityName").append(city);
 }
 
 function getLatLon (city) {
@@ -120,7 +121,6 @@ function getForecast (lat,lon) {
 
     })
 }
-
 
 
 searchbutton.addEventListener("click", getCity)
